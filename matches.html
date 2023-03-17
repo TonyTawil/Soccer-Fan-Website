@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Bayern Fandom</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f4b87f376f.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/logo-removebg-preview.png">
+</head>
+<body>
+    <section class="sub-header2">
+        <nav>
+            <a href="home-page.html"><img src="images/logo-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="matches.html">Matches</a></li>
+                    <li><a href="stats.html">Trophies</a></li>
+                    <li><a href="tickets.html">Tickets</a></li>
+                    <li><a href="contact us.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Matches</h1>
+    </section>
+
+    <!-----------matches----------->
+
+    <section class="perks">
+        <h1>Upcoming matches</h1>
+        <p>These are our upcoming matches; stay tuned!</p>
+        
+        <div class="row">
+            <div class="perks-col">
+                <h3>Bayern vs Psg</h3>
+                <p>date: Fri, 20/01/2023, 21:30 EET <br> Stadium: Allinaz Arena</p>
+            </div>
+            <div class="perks-col">
+                <h3>Bayern vs Real Madrid</h3>
+                <p>date: Wed, 01/02/2023, 21:45 EET <br> Stadium: Santiago Bernabéu</p>
+            </div>
+            <div class="perks-col">
+                <h3>Bayern vs Barcelona</h3>
+                <p>date: Sun, 01/02/2023, 21:45 EET <br> Stadium: Camp Nou</p>
+            </div>
+        </div>
+    </section>
+
+    <!-------footer------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>You can always keep yourself updated with us on social media platforms</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/fcbayern.en/"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/fcbayernen"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/fcbayern/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCZkcxFIsqW5htimoUQKA0iA"><i class="fa fa-youtube"></i></a>
+        </div>
+        <p>made by tony tawil and Elia Helou</p>
+    </section>
+
+    <!------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

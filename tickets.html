@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Bayern Fandom | Tickets</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f4b87f376f.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/logo-removebg-preview.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <section class="sub-header5">
+        <nav>
+            <a href="home-page.html"><img src="images/logo-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="matches.html">Matches</a></li>
+                    <li><a href="stats.html">Trohpies</a></li>
+                    <li><a href="tickets.html">Tickets</a></li>
+                    <li><a href="contact us.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Tickets</h1>
+    </section>
+
+    <!-- Tickets -->
+    <section class="tickets">
+        <div class="tickets-header">
+            <h2>Upcoming Matches</h2>
+            <p>Don't miss out on any of the action! Get your tickets now.</p>
+        </div>
+        <table class="tickets-table">
+            <tr>
+              <th>Match</th>
+              <th>Date</th>
+              <th>Location</th>
+              <th>Price</th>
+              <th>Buy Tickets</th>
+            </tr>
+            <tr>
+              <td>Bayern Munich vs Borussia Dortmund</td>
+              <td>January 1, 2022</td>
+              <td>Allianz Arena, Munich</td>
+              <td>€50</td>
+              <td><a href="#">Buy Now</a></td>
+            </tr>
+            <tr>
+              <td>Bayern Munich vs Paris Saint-Germain</td>
+              <td>February 1, 2022</td>
+              <td>Allianz Arena, Munich</td>
+              <td>€75</td>
+              <td><a href="#">Buy Now</a></td>
+            </tr>
+            <tr>
+                <td>Bayern Munich vs Real Madrid</td>
+                <td>March 1, 2022</td>
+                <td>Allianz Arena, Munich</td>
+                <td>€100</td>
+                <td><a href="#">Buy Now</a></td>
+            </tr>
+            <tr>
+            <td>Bayern Munich vs Barcelona</td>
+            <td>April 1, 2022</td>
+            <td>Allianz Arena, Munich</td>
+            <td>€75</td>
+            <td><a href="#">Buy Now</a></td>
+            </tr>
+        </table>
+        <div class="tickets-bottom">
+            <h2>Other Ticket Options</h2>
+            <div class="tickets-options">
+                <div class="tickets-option">
+                    <h3>Season Tickets</h3>
+                    <p>Get access to all of Bayern Munich's home games for the entire season with a season ticket. Prices start at €350.</p>
+                    <a href="#" class="red-btn">Buy Now</a>
+                </div>
+                <div class="tickets-option">
+                    <h3>Group Tickets</h3>
+                    <p>Bring a group of friends or colleagues to a Bayern Munich match and save on ticket prices. Group discounts start at 10 or more tickets.</p>
+                    <a href="#" class="red-btn">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-------footer------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>You can always keep yourself updated with us on social media platforms</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/fcbayern.en/"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/fcbayernen"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/fcbayern/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCZkcxFIsqW5htimoUQKA0iA"><i class="fa fa-youtube"></i></a>
+        </div>
+        <p>made by tony tawil and Elia Helou</p>
+    </section>
+
+    <!------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    </script>
+    </body>
+    </html>
+    

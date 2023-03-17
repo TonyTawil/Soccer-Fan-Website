@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Bayern Fandom</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f4b87f376f.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/logo-removebg-preview.png">
+</head>
+<body>
+    <section class="sub-header4">
+        <nav>
+            <a href="home-page.html"><img src="images/logo-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="matches.html">Matches</a></li>
+                    <li><a href="stats.html">Trophies</a></li>
+                    <li><a href="tickets.html">Tickets</a></li>
+                    <li><a href="contact us.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Contact us</h1>
+    </section>
+
+    <!-----------Contact us----------->
+    <section class="Location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2658.36925071355!2d11.62256681561672!3d48.21876397923001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479e7385128a251f%3A0xed4d60428e32c423!2sAllianz%20Arena!5e0!3m2!1sen!2slb!4v1671315328216!5m2!1sen!2slb" width="600" height="450"
+         style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>XYZ Road, Wilhelm</h5>
+                        <p>In Germany</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>+49 89 699 31-0</h5>
+                        <p>Monday to Saturday, 9AM to 5PM</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5>service@fcbayern.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Enter Your name" required>
+                    <input type="email" placeholder="Enter Your email address" required>
+                    <input type="text" placeholder="Enter Your subject" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-------footer------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>You can always keep yourself updated with us on social media platforms</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/fcbayern.en/"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/fcbayernen"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/fcbayern/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCZkcxFIsqW5htimoUQKA0iA"><i class="fa fa-youtube"></i></a>
+        </div>
+        <p>made by tony tawil and Elia Helou</p>
+    </section>
+
+    <!------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

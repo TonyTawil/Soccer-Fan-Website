@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Bayern Fandom</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f4b87f376f.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/Bayern-Munchen-Logo-1961-768x432.png">
+</head>
+<body>
+    <section class="sub-header2">
+        <nav>
+            <a href="home-page.html"><img src="images\Bayern-Munchen-Logo-1961-768x432.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="matches.html">Matches</a></li>
+                    <li><a href="">Players</a></li>
+                    <li><a href="">Tickets</a></li>
+                    <li><a href="">History</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Matches</h1>
+    </section>
+
+    <!-----------matches----------->
+
+    <section class="perks">
+        <h1>Upcoming matches</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur</p>
+        
+        <div class="row">
+            <div class="perks-col">
+                <h3>Bayern vs Psg</h3>
+                <p>date: Mia San Mia <br> Stadium: Mia San Mia</p>
+            </div>
+            <div class="perks-col">
+                <h3>Bayern vs Real Madrid</h3>
+                <p>date: Mia San Mia <br> Stadium: Mia San Mia</p>
+            </div>
+            <div class="perks-col">
+                <h3>Bayern vs Barcelona</h3>
+                <p>date: Mia San Mia <br> Stadium: Mia San Mia</p>
+            </div>
+        </div>
+    </section>
+
+    <!-------footer------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Mia San Mia Mia San Mia Mia  Mia San Mia Mia San Mia Mia San Mia Mia San Mia San Mia Mia San Mia</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+        </div>
+        <p>made by tony tawil</p>
+    </section>
+
+    <!------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

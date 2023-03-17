@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Bayern Fandom</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f4b87f376f.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="images/logo-removebg-preview.png">
+</head>
+<body>
+    <section class="sub-header3">
+        <nav>
+            <a href="home-page.html"><img src="images/logo-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="matches.html">Matches</a></li>
+                    <li><a href="stats.html">Trophies</a></li>
+                    <li><a href="tickets.html">Tickets</a></li>
+                    <li><a href="contact us.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Stats & trophies won</h1>
+    </section>
+
+    <!------Our Players ----->
+    <section class="stats-content">
+        <div class="row">
+            <div class="stats-left">
+                <img src="images/tophies.jpg">
+                <h2>Stats & trophies won</h2>
+                <p>As you can see we won many trophies!
+                </p>
+                <br>
+                <p>Our players never failed to amuse us
+                </p>
+
+                <div class="comment-box">
+                    <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment">
+                        </textarea>
+                        <button type="submit" class="hero-btn red-btn">Post Comment</button>
+                    </form> 
+                </div>
+            </div>
+            <div class="stats-right">
+                <h3>Our Collected trophies</h3>
+                <div>
+                    <span>#ChampionsLeague</span>
+                    <span>6 victories</span>
+                </div>
+                <div>
+                    <span>#Bundesliga</span>
+                    <span>31 victories</span>
+                </div><div>
+                    <span>#DfbGerman Cup</span>
+                    <span>20 victories</span>
+                </div><div>
+                    <span>#UEFA Cup</span>
+                    <span>1 victory</span>
+                </div><div>
+                    <span>#German Supercup</span>
+                    <span>11 victories</span>
+                </div><div>
+                    <span>#League cup</span>
+                    <span>6 victories</span>
+                </div><div>
+                <span>#UEFA Cup Winners' Cup</span>
+                <span>1 victory</span>
+            </div><div>
+            <span>#FIFA Club Wold Cup</span>
+            <span>2 victories</span>
+        </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-------footer------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>You can always keep yourself updated with us on social media platforms</p>
+        <div class="icons">
+            <a href="https://www.facebook.com/fcbayern.en/"><i class="fa fa-facebook"></i></a>
+            <a href="https://twitter.com/fcbayernen"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.instagram.com/fcbayern/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.youtube.com/channel/UCZkcxFIsqW5htimoUQKA0iA"><i class="fa fa-youtube"></i></a>
+        </div>
+        <p>made by tony tawil and Elia Helou</p>
+    </section>
+
+    <!------JavaScript for Toggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
